@@ -57,7 +57,7 @@
 
 .child2{
     display: flex;
-    gap:50px;
+    gap:20px;
     justify-content: center;
     /* align-items: center; */
     /* box-shadow: 4px 4px 5px 4px gray; */
@@ -65,11 +65,23 @@
     border-radius: 10px;
     color:cadetblue;
 }
-.subchild1,.subchild2{
+.subchild1{
     box-shadow: 4px 4px 5px 4px gray;
     padding: 2%;
     border-radius: 10px;
     height: fit-content;
+    width: 100%;
+}
+.subchild1 video{
+    width: 100%;
+
+}
+
+.subchild2 .audio1,.subchild2 .iframe1{
+    box-shadow: 4px 4px 5px 4px gray;
+    padding: 3%;
+    border-radius: 10px;
+    width: 100%;
 }
 .footer{
     background-color: beige;
